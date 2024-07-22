@@ -1,0 +1,153 @@
+
+body{
+    font-family: "Arial" , sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* bài1 */
+.container {
+    display: flex;
+    background-color:#FFF8F4 ;
+    max-width: 30%;
+    height:400px;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.container .inner-content{
+    max-width: 60% ;
+    padding-left:90px ;
+    padding-right: 130px;
+}
+.one p{
+    color: #A7A6A0;
+    font-size: 10px;
+    margin-bottom: 5px;
+    width: 130% ;
+
+}
+.one h2{
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.one .button{
+    background-color: #FDFDFC;
+    height: 15px;
+    width: 130%;
+    margin-bottom: 15px;
+    border: #BEBDBA 1px solid;
+    text-align: center;
+    border-radius: 5px;
+    color: #584c29;;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.one .button:hover{
+    background-color: orange;
+}
+.one .form input{
+    background-color: #EBEBE9;
+    width: 130%;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 10px;
+    padding:10px ;
+    padding-right: 0;
+    font-size: 10px;
+}
+.one .accept{
+    background-color: #F76808;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 130%;
+    border: 0px;
+    height: 35px;
+    margin-bottom: 60px ;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.one .accept:active{
+    background-color: #584c29;
+}
+
+/* bài2 */
+
+.product-container{
+    text-align: center;
+    background-color: #999;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ .product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;   
+  
+} 
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h3 {
+    margin: 0 0 10px 0;
+}
+
+.content p {
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 10px ; 
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.new-price {
+    font-size: 18px;
+    color:red;
+    font-weight: bold;
+}
+.open{
+    color: green;
+    font-size: 15px;
+}
+.oder{
+    width: 100%;
+    background-color: #ff6f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.oder:hover {
+    background-color: orange;
+} 
